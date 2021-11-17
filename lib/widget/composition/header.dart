@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:time_picker/widget/provider/time_picker.dart';
+import 'package:time_picker_sheet/widget/provider/time_picker.dart';
 
 class SheetHeader extends StatelessWidget {
   const SheetHeader({Key? key}) : super(key: key);

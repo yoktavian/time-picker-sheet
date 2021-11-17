@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:time_picker/widget/composition/numbers.dart';
+import 'package:time_picker_sheet/widget/composition/numbers.dart';
 
 class NumberWheel extends StatelessWidget {
   final double itemHeight;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:time_picker/widget/behaviour/snap_scroll.dart';
-import 'package:time_picker/widget/provider/time_picker.dart';
+import 'package:time_picker_sheet/widget/behaviour/snap_scroll.dart';
+import 'package:time_picker_sheet/widget/provider/time_picker.dart';
 
 class ListNumber extends StatelessWidget {
   final double itemHeight;

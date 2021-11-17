@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:time_picker/widget/composition/body.dart';
-import 'package:time_picker/widget/composition/header.dart';
-import 'package:time_picker/widget/composition/indicator.dart';
-import 'package:time_picker/widget/provider/time_picker.dart';
-import 'package:time_picker/widget/time_picker.dart';
+import 'package:time_picker_sheet/widget/composition/body.dart';
+import 'package:time_picker_sheet/widget/composition/header.dart';
+import 'package:time_picker_sheet/widget/composition/indicator.dart';
+import 'package:time_picker_sheet/widget/provider/time_picker.dart';
+import 'package:time_picker_sheet/widget/time_picker.dart';
 
 /// Using date time format to initialize data and also for the final result.
 /// the sheet only care about the hour and minute values, the other will be

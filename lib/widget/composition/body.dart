@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:time_picker/widget/composition/wheel.dart';
-import 'package:time_picker/widget/provider/time_picker.dart';
+import 'package:time_picker_sheet/widget/composition/wheel.dart';
+import 'package:time_picker_sheet/widget/provider/time_picker.dart';
 
 /// For now time picker only support 24 hour. The hour options will be
 /// start from 0 to 23 when the interval is 1 and when you are not setting up
