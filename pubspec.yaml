@@ -1,7 +1,7 @@
 name: time_picker_sheet
 description: Time picker sheet library, allows you to have beauty time picker sheet with customable design to align with your requirements.
 homepage: https://github.com/yoktavian/time-picker-sheet
-version: 0.0.2
+version: 0.0.2+1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
