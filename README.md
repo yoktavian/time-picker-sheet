@@ -1,7 +1,7 @@
 # Time Picker Sheet
 A Time picker sheet library for flutter. You can also customize the widget inside the sheet to align with your requirement.
 
-<img src="https://github.com/yoktavian/time-picker-sheet/blob/master/screenshot/simulator.png" style="width: 100%"/></br></br>
+<img src="https://raw.githubusercontent.com/yoktavian/time-picker-sheet/master/screenshot/simulator.png" style="width: 40%"/></br></br>
 
 # How to use
 This is really simple and to the point actually, simply by doing this then your time picker sheet will goes up.

@@ -7,7 +7,7 @@ abstract class TimePicker extends StatelessWidget {
     required BuildContext context,
     required TimePicker sheet,
     bool dismissible = true,
-    double roundedCorner = 8.0
+    double roundedCorner = 8.0,
   }) async {
     return await showModalBottomSheet(
       context: context,
