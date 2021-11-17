@@ -163,9 +163,11 @@ class TimePickerSheet extends TimePicker {
                     TimePickerBody(
                       dateTime: initialDateTime ?? _defaultDateTime,
                       itemHeight: 40,
+
                       /// normalize the interval to be have positive
                       /// value if somehow the interval is negative.
                       minuteInterval: minuteInterval.abs(),
+
                       /// normalize the interval to be have positive
                       /// value if somehow the interval is negative.
                       hourInterval: hourInterval.abs(),

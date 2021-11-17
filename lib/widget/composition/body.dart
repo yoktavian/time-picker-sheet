@@ -185,6 +185,7 @@ class _TimePickerBodyState extends State<TimePickerBody> {
                   twoDigits: provider.twoDigit,
                   controller: hourController,
                 ),
+
                 /// show only 3 items in the list as an options.
                 /// the selected option should be on the middle of the list.
                 height: widget.itemHeight * 3,
@@ -199,6 +200,7 @@ class _TimePickerBodyState extends State<TimePickerBody> {
                   twoDigits: provider.twoDigit,
                   controller: minuteController,
                 ),
+
                 /// show only 3 items in the list as an options.
                 /// the selected option should be on the middle of the list.
                 height: widget.itemHeight * 3,
