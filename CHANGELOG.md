@@ -1,1 +1,3 @@
-# Time Picker Sheet v0.0.1
+## [0.0.2] - 18th Nov 2021
+- Fixing broken image on documentation
+- Fixing flutter format
