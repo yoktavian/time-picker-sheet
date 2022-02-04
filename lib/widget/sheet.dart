@@ -8,6 +8,18 @@ import 'package:time_picker_sheet/widget/time_picker.dart';
 /// Using date time format to initialize data and also for the final result.
 /// the sheet only care about the hour and minute values, the other will be
 /// ignored.
+///
+enum SheetHeight {
+  /// HH:mm
+  small,
+
+  /// HH:mm:ss
+  mid,
+
+  /// HH:mm:ss.SSS
+  tall,
+}
+
 class TimePickerSheet extends TimePicker {
   /// you can set initial date time from screen, so if time picker sheet
   /// opened will be directly selected the time based on initialDateTime.
@@ -73,6 +85,7 @@ class TimePickerSheet extends TimePicker {
   final String saveButtonText;
 
   final Color saveButtonColor;
+  final SheetHeight sheetHeightDivisor;
 
   late final _now = DateTime.now();
 
@@ -87,6 +100,7 @@ class TimePickerSheet extends TimePicker {
   );
 
   TimePickerSheet({
+    this.sheetHeightDivisor = SheetHeight.mid,
     Key? key,
     required this.sheetTitle,
     required this.minuteTitle,
@@ -133,7 +147,19 @@ class TimePickerSheet extends TimePicker {
 
   @override
   Widget build(BuildContext context) {
-    final halfOfScreen = MediaQuery.of(context).size.height / 2;
+    var _sheetHeight = 0.0;
+    switch (sheetHeightDivisor) {
+      case SheetHeight.small:
+        _sheetHeight = 2.6;
+        break;
+      case SheetHeight.mid:
+        _sheetHeight = 2;
+        break;
+      case SheetHeight.tall:
+        _sheetHeight = 1.5;
+        break;
+    }
+    final halfOfScreen = MediaQuery.of(context).size.height / _sheetHeight;
 
     return TimePickerProvider(
       sheetCloseIcon: sheetCloseIcon,

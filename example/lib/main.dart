@@ -41,6 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         minuteTitle: 'Minute',
         hourTitle: 'Hour',
         saveButtonText: 'Save',
+        sheetHeightDivisor: SheetHeight.small,
       ),
     );
 
